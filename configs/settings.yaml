@@ -1,0 +1,22 @@
+# Pipeline configuration settings
+
+# Bayesian shrinkage constant (C in the formula)
+bayes_c: 50
+
+# Quality cap threshold for probability adjustment
+quality_cap: 0.75
+
+# Expected Calibration Error threshold for model blacklisting
+ece_blacklist_threshold: 0.05
+
+# Maximum age of data in days before considered stale
+staleness_days: 7
+
+# Minimum samples required for segment-level calibration
+min_segment_samples: 50
+
+# Minimum samples required for isotonic regression calibration
+min_isotonic_samples: 300
+
+# Maximum Kelly criterion bet size cap (as fraction of bankroll)
+max_kelly_cap: 0.25

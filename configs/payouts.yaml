@@ -1,0 +1,13 @@
+# Payout multipliers by contest type and number of picks
+# These define the prize structure for different bet combinations
+
+contest_type:
+  power_2_pick: 3.0
+  power_3_pick: 6.0
+  power_4_pick: 10.0
+  power_5_pick: 20.0
+  
+  flex_2_pick: 2.0
+  flex_3_pick: 2.2
+  flex_4_pick: 5.0
+  flex_5_pick: 10.0
